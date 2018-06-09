@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { NotizieComponentComponent } from './notizie-component/notizie-component.component';
+import { TreniComponent } from './treni/treni.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    NotizieComponentComponent
+    NotizieComponentComponent,
+    TreniComponent
   ], //array di componenti usati nell'app 
   imports: [
     BrowserModule
