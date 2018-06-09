@@ -2,15 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { NotizieComponentComponent } from './notizie-component/notizie-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    MenuComponent,
+    NotizieComponentComponent
+  ], //array di componenti usati nell'app 
   imports: [
     BrowserModule
-  ],
+  ], //direttive da caricare
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] //nome della componente che dovrà essere caricata per prima
 })
-export class AppModule { }
+export class AppModule {
+
+  
+ }
